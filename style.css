@@ -1,0 +1,85 @@
+body {
+  background-color: #222;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  display: block;
+  margin: 0;
+  padding: 50px 0;
+  background-color: #5D737E;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: #222;
+}
+
+.color {
+  color: #FF6B6B;
+}
+
+.main-menu {
+  background-color: #64B6AC;
+  margin-bottom: 20px;
+}
+
+.menu {
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  background-color: #64B6AC;
+  list-style: none;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 10px 5px;
+  margin: 0;
+  vertical-align: middle;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.item-1 {
+  text-align: left;
+}
+
+.spacer {
+  width: 340px;
+  text-align: center;
+}
+
+.container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.square {
+  padding: 95px;
+  margin-bottom: 20px;
+  background-color: #222;
+  border-radius: 5px;
+}
+
+
+
+
+
